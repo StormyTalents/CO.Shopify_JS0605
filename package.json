@@ -1,0 +1,47 @@
+{
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-brands-svg-icons": "^5.15.2",
+    "@fortawesome/free-regular-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@fortawesome/react-native-fontawesome": "^0.2.6",
+    "axios": "^0.21.1",
+    "btoa": "^1.2.1",
+    "contentful": "^8.2.1",
+    "cookie-cutter": "^0.1.0",
+    "cookies": "^0.8.0",
+    "cors": "^2.8.5",
+    "form-data": "^4.0.0",
+    "fs": "^0.0.1-security",
+    "multipassify": "^1.1.0",
+    "next": "^12.1.6",
+    "next-images": "^1.8.1",
+    "next-pwa": "^5.4.0",
+    "node-fetch": "^2.6.1",
+    "postcss": "^8.1.10",
+    "react": "^18.1.0",
+    "react-cookie": "^4.0.3",
+    "react-dom": "^18.1.0",
+    "react-gtm-module": "^2.0.11",
+    "react-hotjar": "^5.0.0",
+    "react-image-magnifiers": "^1.4.0",
+    "react-inner-image-zoom": "^2.0.1",
+    "react-player": "^2.10.1",
+    "react-slick": "^0.28.1",
+    "react-visibility-sensor": "^5.1.1",
+    "request": "^2.88.2",
+    "sass": "^1.32.8",
+    "slick-carousel": "^1.8.1",
+    "swr": "^0.5.5",
+    "typescript": "^4.4.4"
+  },
+  "devDependencies": {
+    "url-loader": "^4.1.1"
+  }
+}

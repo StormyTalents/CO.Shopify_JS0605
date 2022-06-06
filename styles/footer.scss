@@ -1,0 +1,230 @@
+/******** FOOTER CSS ********/
+.footer--wrap {
+    margin-top: 50px;
+    .footer--content {
+        background-color: $c-blue;
+        color: white;
+        padding: 50px 0;
+
+        .mob-b {
+            @include respond-below(tablet-portrait) {
+                display: flex;
+				flex-direction:column-reverse;
+
+                .half {
+                    width: 100%;
+                }
+			}
+        }
+        .call--action {
+            margin-top: 50px;
+            @include respond-below(tablet-portrait) {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .button {
+                margin-right: 20px;
+                width: 160px;
+                align-content: center;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                @include respond-below(tablet-portrait) {
+                    margin-right: 0%;
+                }
+
+            }
+            .ico--footer {
+                width: 20px;
+                margin-right: 10px;
+            }
+            .h5 {
+                margin-bottom: 0;
+                text-transform: none;
+            }
+        }
+
+        .footer--item {
+            
+            a {
+                display: block;
+                color: white;
+                &.logo--link {
+                    max-width: 130px;
+                    display: block;
+                    margin-bottom: 20px;
+                }
+            }
+
+            .h5 {
+                margin-bottom: 30px;
+                text-transform: capitalize;
+            }
+
+            li {
+                list-style: none;
+                margin-bottom: 5px;
+            }
+            @include respond-below(tablet-portrait) {
+                width: 100%;
+                border-top:2px solid #ffffff25;
+                padding: 20px 0;
+                margin-bottom: 0;
+
+                &:last-child {
+                    border-bottom:2px solid #ffffff25; 
+                }
+
+                .h5 {
+                    position: relative;
+                    margin-bottom: 0;
+
+                    .plus, .minus {
+                        width: 14px;
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                    }
+                }
+            }
+        }
+
+        .copyright {
+            text-align: center;
+
+            .flex {
+                justify-content: space-between;
+                @include respond-below(tablet-portrait) {
+                    display: block;
+
+                    p {
+                        margin-bottom: 20px;
+                    }
+
+                    .most--footer--menu {
+                        a {
+                            display: block;
+                        }
+                    }
+                }
+
+                p {
+                    font-size: 14px;
+                }
+            }
+            .mr-30 {
+                @include respond-below(tablet-portrait) {
+                    margin-right: 0;
+                }
+                &:last-child  {
+                    margin-right: 0;
+                }
+            }
+        }
+
+        .mob--accordion {
+            display: block;
+            margin-top: 30px;
+            
+            ul {
+                display: none;
+                margin-top: 20px;
+
+                &.show {
+                    display: block;
+                }
+            }
+        }
+    }
+
+    .sign--up--wrap {
+        justify-content: flex-end;
+
+        @include respond-below(tablet-air-portrait) {
+            .half {
+                width: 360px;
+            }
+        }
+        
+        .sign--up {
+            max-width: 450px;
+            display: block;
+            margin: auto;
+            text-align: left;
+
+            .form--content {
+                position: relative;
+            }
+            .h5 {
+                margin-bottom: 30px;
+                text-transform: capitalize;
+            }
+            p {
+                margin-bottom: 20px;
+            }
+            .form--subject {
+                margin-bottom: 20px;
+
+                label {
+                    display: inline-flex;
+                    align-items: center;
+                    margin-right: 25px;
+
+                    input {
+                        &.subject {
+                            border: 1px solid black;
+                            width: 20px;
+                            height: 20px;
+                            background: white;
+                            -webkit-appearance: none;
+                            border-radius: 50%;
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+            input.button {
+                background-image: url('/icons/right-arrow.png');
+                position: absolute;
+                bottom: 30px;
+                right: 0;
+                width: 28px;
+                height: 25px;
+                background-color: transparent;
+            }
+        }
+    }
+}
+
+.social--media {
+    margin-top: 10px;
+    @include respond-below(tablet-portrait) {
+        display:flex;
+        justify-content: center;
+        margin-top: 30px;
+
+        &.desktop {
+            display: none;
+        }
+        &.mobile {
+            display: flex;
+        }
+    }
+
+    .social--ico {
+        margin-right: 30px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+.logos--inter {
+    justify-content: space-between;
+
+    .slick-arrow  {
+        display: none!important;
+    }
+}
