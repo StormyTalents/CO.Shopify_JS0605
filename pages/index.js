@@ -6,7 +6,7 @@ import { getNavDataNeeded, getRichTextDataNeeded, getPagesSlugs } from '@/lib/co
 import { getReviewNeeded } from '@/lib/review'
 
 function IndexPage({pageContent, basicProdData, products, richTextData, reviewNeeded, productsCollection}) {
-
+1
   return (
     <div className="home--index--page">
       <SEO 
