@@ -8,7 +8,7 @@ import {
   getPagesSlugs,
 } from "@/lib/contentful";
 import { getReviewNeeded } from "@/lib/review";
-
+3213;
 function IndexPage({
   pageContent,
   basicProdData,
