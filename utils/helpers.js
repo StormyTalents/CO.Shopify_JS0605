@@ -1,4 +1,4 @@
-1export function saveLocalData(cart, checkoutId, checkoutUrl,discount,discountLine) {
+export function saveLocalData(cart, checkoutId, checkoutUrl,discount,discountLine) {
   localStorage.setItem(process.env.NEXT_PUBLIC_LOCAL_STORAGE_NAME, JSON.stringify([cart, checkoutId, checkoutUrl, discount, discountLine]))
 }
 
