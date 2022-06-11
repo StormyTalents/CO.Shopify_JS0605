@@ -1,7 +1,7 @@
 export function saveLocalData(cart, checkoutId, checkoutUrl,discount,discountLine) {
   localStorage.setItem(process.env.NEXT_PUBLIC_LOCAL_STORAGE_NAME, JSON.stringify([cart, checkoutId, checkoutUrl, discount, discountLine]))
 }
-ww
+
 export async function getCustomerToken(customerData) {
   const data = await fetch('/api/customer-token', {
     method: 'POST',
