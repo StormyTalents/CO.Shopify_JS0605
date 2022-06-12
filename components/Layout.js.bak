@@ -1,4 +1,4 @@
-1import { CartProvider } from '@/context/Store'
+import { CartProvider } from '@/context/Store'
 import Main from '@/components/MainFrame'
 
 function Layout({ children, navs, menuSlug, basicProdData, topBar, searchPopular }) {
