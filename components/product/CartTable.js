@@ -25,6 +25,7 @@ function CartTable({ cart }) {
     setFreeShipping(shippingCalculation)
     const progress = 100 -  shippingCalculation
     setprogressBar(progress)
+    //setprogressBar(progress)
   }, [cart])
 
   function updateItem(id, quantity) {
